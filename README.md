@@ -1,2 +1,2 @@
-# Website
-Official website
+# Official website of Arduino Exchange Community
+## Coming soon!
