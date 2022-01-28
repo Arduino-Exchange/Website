@@ -12,7 +12,11 @@
     <link rel="icon" type="image/png" sizes="256x256" href="logo.jpg">
     <meta name="theme-color" content="#FF000F">
     <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="particles.js-main/demo/css/style.css">
+
+    <!-- JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"
+        integrity="sha512-Kef5sc7gfTacR7TZKelcrRs15ipf7+t+n7Zh6mKNJbmW+/RRdCW9nwfLn4YX0s2nO6Kv5Y2ChqgIakaC6PW09A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <!--HOVER BUTTON-->
     <style>
@@ -34,53 +38,51 @@
 <body>
 
     <!-- particles.js container -->
-    <div id="particles-js">
-        <!--NAV BAR-->
-        <ul>
-            <!--Home Logo-->
-            <li><a href="index.html">
-                    <img id="logo" src="logo.jpg" width="50" height="50">
-                </a></li>
-            <li><a id="nav" href="index.html"><b style="color: rgb(0, 255, 157);">Home </b></a></li>
-            <li><a id="nav" href="about.html"><b> About </b></a></li>
-            <li><a id="nav" href="api.html"><b> API</b></a></li>
-            <li><a id="nav" href="https://twitter.com/ArduinoExchange"><b> Twitter </b></a></li>
-            <li><a id="nav" href="donate.html"><b> Donate</b></a></li>
-        </ul>
-        <!--COMMUNITY NAME-->
+    <div id="particles-bg"></div>
+    <script>
+        particlesJS.load("particles-bg", "/particles.json");
+    </script>
+
+    <!--NAV BAR-->
+    <ul>
+        <!--Home Logo-->
+        <li><a href="index.html">
+                <img id="logo" src="logo.jpg" width="50" height="50">
+            </a></li>
+        <li><a id="nav" href="index.html"><b style="color: rgb(0, 255, 157);">Home </b></a></li>
+        <li><a id="nav" href="about.html"><b> About </b></a></li>
+        <li><a id="nav" href="api.html"><b> API</b></a></li>
+        <li><a id="nav" href="https://twitter.com/ArduinoExchange"><b> Twitter </b></a></li>
+        <li><a id="nav" href="donate.html"><b> Donate</b></a></li>
+    </ul>
+    <!--COMMUNITY NAME-->
+    <b>
+        <h1>Arduino Exchange</h1>
+    </b>
+
+    <!--Slogan-->
+    <h4 style="margin-left: 15px">A playground for Arduino or any Developers for improving skills and more</h4>
+    <ul>
+
         <b>
-            <h1>Arduino Exchange</h1>
+            <h2>Exploring our community</h2>
         </b>
+        <h4 style="text-align: center;">A friendly community for everyone arround the world to work, collaborate and
+            helping each others</h4>
+        <h4 style="text-align: center;">So what are you waiting for? Join our community now!</h4>
+        <!--Community Links-->
+        <button class="button" style="background-color: #7994f7; ">
+            <li><b><a href="https://discord.gg/9y7Uc4kxgh">Join our Discord!</a></b></li>
+        </button>
+        <button class="button" style="background-color: rgb(243, 95, 59);">
+            <li><b><a href="https://www.reddit.com/r/Arduino_exchange/">Join our Reddit!</a></b></li>
+        </button>
 
-        <!--Slogan-->
-        <h4 style="margin-left: 15px">A playground for Arduino or any Developers for improving skills and more</h4>
-        <ul>
+    </ul>
 
-            <b>
-                <h2>Exploring our community</h2>
-            </b>
-            <h4 style="text-align: center;">A friendly community for everyone arround the world to work, collaborate and
-                helping each others</h4>
-            <h4 style="text-align: center;">So what are you waiting for? Join our community now!</h4>
-            <!--Community Links-->
-            <button class="button" style="background-color: #7994f7; ">
-                <li><b><a href="https://discord.gg/9y7Uc4kxgh">Join our Discord!</a></b></li>
-            </button>
-            <button class="button" style="background-color: rgb(243, 95, 59);">
-                <li><b><a href="https://www.reddit.com/r/Arduino_exchange/">Join our Reddit!</a></b></li>
-            </button>
-
-        </ul>
-
-        <footer>
-            <p>The Arduino Exchange Website Project 2022 - 2022 | All Rights Reserved</p>
-        </footer>
-    </div>
-
-    <!-- scripts -->
-    <script src="particles.js-main/particles.js"></script>
-    <script src="particles.js-main/demo/js/app.js"></script>
-
+    <footer>
+        <p>The Arduino Exchange Website Project 2022 - 2022 | All Rights Reserved</p>
+    </footer>
 
 </body>
 
