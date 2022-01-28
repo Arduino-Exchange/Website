@@ -103,17 +103,28 @@ div#particles-bg canvas {
     -webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
     transition: opacity .8s ease, transform 1.4s ease
 }
-.typetext{
-    animation: 1.4s steps(16) 1s forwards,
-    blinkcursor 1s;
-
-}
-@keyframes blinkcursor{
+.typetext h2 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; 
+    margin: 0 auto; 
+    letter-spacing: 0.1px; 
+    animation: 
+      typing 3.5s steps(24, end),
+      blink-caret 1s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
     from, to { border-color: transparent }
-    50% { 
-        border-color: rgb(72, 16, 88); 
-    }
-}
+    50% { border-color: orange; }
+  }
 html{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -126,5 +137,5 @@ html{
 
 #nav:hover {
     animation-name: navcursor;
-    color: rgb(0, 255, 157);
+    color: rgb(255, 0, 0);
 }
