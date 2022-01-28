@@ -1,24 +1,25 @@
-.button{ 
-  border: none;
-  color: rgb(255, 255, 255);
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  width: 300px;
-  display: inline-block;
-  font-size: 24px;
-  margin: auto;
-  cursor: pointer;
-  -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
-  border-radius: 10px;
-}
-.button:hover{
-  box-shadow: 0px 0px 12px #575555;
-
+.button {
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    width: 300px;
+    display: inline-block;
+    font-size: 24px;
+    margin: auto;
+    cursor: pointer;
+    /* Safari */
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    border-radius: 10px;
 }
 
-h1{
+.button:hover {
+    box-shadow: 0px 0px 12px #575555;
+}
+
+h1 {
     color: rgb(130, 250, 126);
     margin-left: 20px;
     text-align: left;
@@ -26,22 +27,25 @@ h1{
     margin-bottom: 1px;
     margin-top: 30px;
 }
-h2{
-  color: rgb(255, 0, 0);
-  font-size: 30px;
-  text-align: center;
+
+h2 {
+    color: rgb(255, 0, 0);
+    font-size: 30px;
+    text-align: center;
 }
-h4{
+
+h4 {
     color: rgb(236, 88, 255);
     text-align: left;
 }
 
-h5{
+h5 {
     color: white;
     text-align: center;
     line-height: 1px;
 }
-p{
+
+p {
     position: fixed;
     bottom: 0;
     margin: 0;
@@ -52,7 +56,6 @@ p{
     font-size: 15px;
     color: white;
     z-index: 1;
-    
 }
 
 ul {
@@ -60,21 +63,20 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
+}
 
-  }
-  
-  li {
+li {
     float: center;
     text-align: center;
     display: inline;
     font-size: 20px;
-  }
-  
-a {
-  text-decoration: none;
-  color: white;
-}
-#logo{
-  border-radius: 99%;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#logo {
+    border-radius: 99%;
+}
