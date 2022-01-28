@@ -103,3 +103,15 @@ div#particles-bg canvas {
     -webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
     transition: opacity .8s ease, transform 1.4s ease
 }
+
+#nav {
+    margin-top: 50px;
+    margin-left: 40px;
+    font-size: 24px;
+    color: white;
+}
+
+#nav:hover {
+    animation-name: navcursor;
+    color: rgb(0, 255, 157);
+}
