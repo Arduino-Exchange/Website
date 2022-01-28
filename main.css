@@ -20,7 +20,7 @@
 }
 
 h1 {
-    color: rgb(130, 250, 126);
+    color: rgb(6, 163, 103);
     margin-left: 20px;
     text-align: left;
     font-size: 45px;
@@ -29,7 +29,7 @@ h1 {
 }
 
 h2 {
-    color: rgb(255, 0, 0);
+    color: rgb(6, 163, 103);
     font-size: 30px;
     text-align: center;
 }
@@ -102,4 +102,19 @@ div#particles-bg canvas {
     opacity: 1;
     -webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
     transition: opacity .8s ease, transform 1.4s ease
+}
+.typetext{
+    animation: 1.4s steps(16) 1s forwards,
+    blinkcursor 1s;
+
+}
+@keyframes blinkcursor{
+    from, to { border-color: transparent }
+    50% { 
+        border-color: rgb(72, 16, 88); 
+    }
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
