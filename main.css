@@ -116,5 +116,15 @@ div#particles-bg canvas {
 }
 html{
     font-family: Arial, Helvetica, sans-serif;
-    
+}
+#nav {
+    margin-top: 50px;
+    margin-left: 40px;
+    font-size: 24px;
+    color: white;
+}
+
+#nav:hover {
+    animation-name: navcursor;
+    color: rgb(0, 255, 157);
 }
