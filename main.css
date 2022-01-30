@@ -100,7 +100,7 @@ div#particles-bg canvas {
       typing 3.5s steps(24, end),
       blink-caret 1s step-end infinite;
   }
-  
+/*---------------------------------KEYFRAMES----------------------------------*/
   /* The typing effect */
   @keyframes typing {
     from { width: 0 }
@@ -111,6 +111,41 @@ div#particles-bg canvas {
   @keyframes blink-caret {
     from, to { border-color: transparent }
     50% { border-color: rgb(112, 175, 218); }
+  }
+  @keyframes color-ani{
+      0% {
+          color:rgb(255, 0, 0)
+      }
+      10%{
+          color:rgb(255, 115, 0);
+      }
+      20% {
+          color:rgb(255, 238, 0);
+      }
+      30%{
+          color:rgb(0, 255, 0);
+      }
+      40%{
+          color: rgb(0, 255, 255);
+      }
+      50%{
+          color:rgb(0, 150, 255)
+      }
+      60%{
+          color:rgb(0, 0, 255);
+      }
+      70%{
+          color:rgb(162, 0, 255);
+      }
+      80%{
+          color:rgb(225, 0, 255);
+      }
+      90%{
+          color:rgb(255, 0, 221);
+      }
+      100%{
+          color:rgb(255, 0, 119);
+      }
   }
 html{
     font-family: Arial, Helvetica, sans-serif;
