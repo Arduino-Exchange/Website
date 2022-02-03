@@ -174,3 +174,6 @@ html{
     color: rgb(255, 66, 66);
     transition-duration: .45s;
 }
+::selection{
+    background: rgba(0, 255, 255, 0.8);
+}
