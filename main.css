@@ -10,30 +10,37 @@
     margin-right: 10px;
     margin-bottom: 10px;
     cursor: pointer;
-    -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
     border-radius: 10px;
 }
-/*---------------------------SCROLL BAR-------------------------*/
-::-webkit-scrollbar{
-    width: 12px;
-
-}
-::-webkit-scrollbar-track{
-    background:rgba(254, 223, 255, 0.7);
-    
-}
-::-webkit-scrollbar-thumb{
-    background:rgba(75, 255, 240, 0.6);
-}
-::webkit-scrollbar-thumb:hover{
-    background: #b3ffff;
-}
-/*--------------------------END OF SCROLL BAR-------------------*/
 .button:hover {
     box-shadow: 0px 0px 12px #7a3b3b;
     border-radius: 20px;
 }
+
+/*---------------------------SCROLL BAR-------------------------*/
+     /* width */
+     ::-webkit-scrollbar {
+        width: 10px;
+      }
+      
+      /* Track */
+      ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px rgb(210, 230, 230); 
+        border-radius: 10px;
+      }
+       
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: rgba(0, 255, 255, 0.95); 
+        border-radius: 10px;
+      }
+      
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: rgba(0, 255, 255, 0.7); 
+      }
+      /*--------------------------END OF SCROLL BAR-------------------*/
 
 h1 {
     font-size: 30px;
