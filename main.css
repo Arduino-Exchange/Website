@@ -187,6 +187,12 @@ html{
     transform: translateY(3rem);
     animation: fadeInUp 1s ease calc(.7s) forwards;
 }
+@keyframes fadeInUp {
+    to {
+   opacity: 1;
+   transform: translateY(0);
+ }
+}
 
 ::selection{
     color: rgba(0, 255, 255, 0.95);

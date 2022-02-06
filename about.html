@@ -66,6 +66,24 @@
                 text-decoration: none; 
                 color: rgb(172, 255, 220);
             }
+            .info1{
+                 color: hsl(0 0% 0% / .7);
+                 opacity: 0;
+                 transform: translateY(3rem);
+                 animation: fadeInUp 1s ease calc(1.7s) forwards;
+            }
+            .info2{
+                 color: hsl(0 0% 0% / .7);
+                 opacity: 0;
+                 transform: translateY(3rem);
+                 animation: fadeInUp 1s ease calc(2.3s) forwards;
+            }
+            .powered{
+                 color: hsl(0 0% 0% / .7);
+                 opacity: 0;
+                 transform: translateY(3rem);
+                 animation: fadeInUp 1s ease calc(3.4s) forwards;
+            }
         </style>
 </head>
 
@@ -78,25 +96,28 @@
     </script>
 
     <!--NAV BAR-->
-    <ul>
-        <!--Home Logo-->
-        <li><a href="index.html">
-                <img id="logo" src="logo.jpg" width="60" height="60">
-            </a></li>
-        <li><a id="nav" href="index.html"><b>Home</b></a></li>
-        <li><a id="nav" href="about.html"><b style="color: rgb(0, 162, 255);">About</b></a></li>
-        <li><a id="nav" href="api.html"><b>API</b></a></li>
-        <li><a id="nav" href="https://twitter.com/ArduinoExchange" target = "_blank"><b>Twitter</b></a></li>
-        <li><a id= "nav" href="donate.html"><b>Help Us</b></a></li>
-    </ul>
-
+        <div class = "nav-bar-ani">
+            <ul>
+                <!--Home Logo-->
+                   <li><a href="index.html">
+                         <img id="logo" src="logo.jpg" width="60" height="60">
+                   </a></li>
+                           <li><a id="nav" href="index.html"><b>Home</b></a></li>
+                           <li><a id="nav" href="about.html"><b style="color: rgb(0, 162, 255);">About</b></a></li>
+                           <li><a id="nav" href="api.html"><b>API</b></a></li>
+                           <li><a id="nav" href="https://twitter.com/ArduinoExchange" target = "_blank"><b>Twitter</b></a></li>
+                           <li><a id= "nav" href="donate.html"><b>Help Us</b></a></li>
+            </ul>
+        </div>
           <!--Informations-->
         <div class = "text-alignment">
+                <div class = "info1">
                         <h1 style = "color: rgb(250, 140, 140); margin-top: 40px; margin-left: 20%;"><b>About The Project</b></h1>
                               <h5>This is an official website of Arduino Exchange Community. This is a place where you can find all informations about our organization.</h5>
                               <h5 style="line-height: 22px;">Arduino Exchange Community is a community that provides for you a friendly, safe, and a good environment for all ages arround the world at any level of programming and also IoT like Arduino development boards and more!</h5>
-                        <h1 style = "color: rgb(250, 140, 140); margin-left: 20%;"><b>Our Team</b></h1>
-                
+                    </div>
+                <div class="info2">
+                              <h1 style = "color: rgb(250, 140, 140); margin-left: 20%;"><b>Our Team</b></h1>
                               <h5 style="color: rgb(0, 255, 255); font-size: 17px;">Creator & Leader : <a style = "text-decoration: none;" href = "https://pbaodoge-siesta.ml" target = "_blank">Phan Bảo (Siesta)</a></h5>
                               <h5 style = "color: rgb(0, 255, 255); font-size: 17px;">Senior Developers:</h5>
                          <div style = "padding-left: 4%;">
@@ -121,22 +142,21 @@
 
                 <h5 style = "color: rgb(117, 204, 255); font-size: 17px;"><b>Special Thanks To</b></h5>
                          <h5 style = "font-family: 'JetBrains Mono'; padding-left: 25%;">Donator of Organization : Trần Khiếu Thiên (SskyWorms)</h5>
-                
+               
 
              <h1 style = "font-size: 17px; margin-left:23%; color: rgb(235, 94, 94);">Website Developers : <b style = "font-family: 'JetBrains Mono';">Bram, Phan Bảo</b></h1>
-                
-
+                </div>
+            <div class = "powered">
                 <div class="copyright">
                   <h5 style="text-align: center;">Powered by 
                     <a style = "color: cyan;"href = "https://freenom.com">Freenom</a>, 
                        <a style = "color: cyan;" href = "https://pages.github.com" target = "_blank">Github Pages</a> and 
                          <a style = "color: cyan;"href = "https://cloudflare.com" target = "_blank">Cloudflare</a></a></h5>
 
-                  <h5 style="text-align: center;"><b>Arduino Exchange Website Project 2022 - 2022 | All Rights Reserved</b></h5>
-        
+                         <h5 style="text-align: center;"><b>Arduino Exchange Website Project 2022 - 2022 | All Rights Reserved</b></h5>
                 </div>
             </div>
-
+        </div>
             <!--Prevent using http protocol-->
             <script src = "function.js" type = "text/javascript" onload = "converthttpsabout()"></script>
                  
