@@ -181,6 +181,13 @@ html{
     color: rgb(255, 66, 66);
     transition-duration: .45s;
 }
+.nav-bar-ani{
+    color: hsl(0 0% 0% / .7);
+    opacity: 0;
+    transform: translateY(3rem);
+    animation: fadeInUp 1s ease calc(.7s) forwards;
+}
+
 ::selection{
     color: rgba(0, 255, 255, 0.95);
     background-color: transparent;
