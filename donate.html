@@ -19,6 +19,14 @@
     <!--CSS -->
     <link rel="stylesheet" href="main.css">
     <link href='https://fonts.googleapis.com/css?family=JetBrains Mono' rel='stylesheet'>
+    <style>
+        .info{
+            color: hsl(0 0% 0% / .7);
+             opacity: 0;
+             transform: translateY(3rem);
+             animation: fadeInUp 1s ease calc(1.8s) forwards;
+        }
+    </style>
 
     <!-- SEO -->
     <title>Help Us | Arduino Exchange</title>
@@ -56,6 +64,7 @@
     </script>
 
     <!--NAV BAR-->
+<div class = "nav-bar-ani">
     <ul>
         <!--Home Logo-->
         <li>
@@ -70,7 +79,8 @@
         <li><a id= "nav" href="donate.html"><b style="color: rgb(100, 200, 250); margin-left: 20px;">Help Us</b></a></li>
         
     </ul>
-    <div style = "padding-right: 15%; padding-left: 15%;">
+</div>
+    <div class = "info" style = "padding-right: 15%; padding-left: 15%;">
            <h4 style = "font-family: 'JetBrains Mono'; margin-bottom: 20px;">You can help us maintaining the community by donating to our organization : </h4>
            <h4 style = "font-family: 'JetBrains Mono';"><i class="fab fa-bitcoin"></i> Bitcoin: <b>1Fra4z2Ki9nF6LcLGf3ipWwQm7Mw2oPD6M</b></h4>
            <h4 style = "font-family: 'JetBrains Mono';"><i class="fab fa-ethereum"></i> Ethereum: <b>0x71166df6f1c285c584358226b189ace486a7f7bf (ERC-20)</b></h4>
