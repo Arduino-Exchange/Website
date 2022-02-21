@@ -17,5 +17,5 @@
 
 
 # Help Us
-* You can help us maintaining the community [here](https://arduinoexchange.xyz). Then your name will be listed on our website and on this reppsitory.
+* You can help us maintaining the community [here](https://arduinoexchange.xyz). Then your name will be listed on our website and on this repository.
 * Feel free to do a pull request or an issue if you found any bugs or you wanna contribute to our website!
