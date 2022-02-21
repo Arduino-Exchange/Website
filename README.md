@@ -1,4 +1,4 @@
-# arduinoexchange.xyz 
+# Our Website
 >An official website for our organization!
 * You can visit our website [**here**](https://arduinoexchange.xyz)
 
