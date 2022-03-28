@@ -1,23 +1,9 @@
-function converthttpsindex(){
+function httptohttps(){
     if(location.protocol == "http:"){
-        location.replace("https://arduinoexchange.xyz");
+        location.replace(`https://${window.location.href}`);
     }
 }
-function converthttpsabout(){
-    if(location.protocol == "http:"){
-        location.replace("https://arduinoexchange.xyz/about.html");
-    }
-}
-function converthttpsapi(){
-    if(location.protocol == "http:"){
-        location.replace("https://arduinoexchange.xyz/api.html");
-    }
-}
-function converthttpsdonate(){
-    if(location.protocol == "http:"){
-        location.replace("https://arduinoexchange.xyz/donate.html");
-    }
-}
+
 //script to copy addresses to clipboard
 function clipboard() {
     var copyText = document.getElementById("clipboard");
