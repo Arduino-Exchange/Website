@@ -175,10 +175,6 @@ html{
     color: rgb(57, 57, 57);
 }
 
-#nav:hover {
-    color: rgb(255, 66, 66);
-    transition-duration: .45s;
-}
 .nav-bar-ani{
     color: hsl(0 0% 0% / .7);
     opacity: 0;
@@ -193,7 +189,7 @@ html{
 }
 
 ::selection{
-    color: rgba(0, 255, 255, 0.95);
+    color: rgba(0, 255, 166, 0.95);
     background-color: transparent;
 }
 a{
