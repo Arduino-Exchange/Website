@@ -198,3 +198,16 @@ html{
     color: rgba(0, 255, 255, 0.95);
     background-color: transparent;
 }
+a{
+    text-decoration: none !important;
+    background-image: linear-gradient(to right, #00ffc3d5, #ffffffdd) !important;
+    background-size: 0% 0.1em !important;
+    background-position-y: 100% !important;
+    background-position-x: 100% !important;
+    background-repeat: no-repeat !important;
+    transition: background-size 0.2s ease-in-out !important;
+}
+a:hover,a:focus,a:active {
+  background-size: 100% 0.1em !important;
+  background-position-x: 0% !important;
+}
