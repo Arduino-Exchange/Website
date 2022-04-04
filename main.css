@@ -88,10 +88,6 @@ a {
     color: white;
 }
 
-body {
-    background-color: rgb(26, 26, 26);
-}
-
 div#particles-bg {
     width: 100%;
     height: 100%;
@@ -169,12 +165,14 @@ div#particles-bg canvas {
   }
 html{
     font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, rgb(180, 135, 171), rgb(175, 224, 237) );
+    background-color: aqua;
 }
 #nav {
     margin-top: 50px;
     margin-left: 40px;
     font-size: 24px;
-    color: white;
+    color: rgb(57, 57, 57);
 }
 
 #nav:hover {
