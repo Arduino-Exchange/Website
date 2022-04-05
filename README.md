@@ -1,22 +1,19 @@
-# Our Website
->An official website for our organization!
-* You can visit our website [**here**](https://arduinoexchange.xyz)
-* Written with HTML, CSS and JS
-* Node modules : Particles.JS
+## Our Website
+* You can visit our website [**here**](https://arduinoexchange.xyz).
+* Written with HTML, CSS and JS.
+* JS Modules : Particles.JS.
 
-## Issues that are being fixed
-* Responsive because the navigation bar sucks on mobile devices
-
-
-## Future plans
->Some future plans for the website and the whole community
-* a Log in, Sign up platform (just an account system)
-* A Forum Page
-* A Questions Page Platform
-* A Project Hub
-* A source code storage system for programmers 😄
+### Issues that are being worked on
+* Minimal/No responsiveness on mobile yet.
 
 
-## Help Us
-* You can help us maintaining the community [here](https://arduinoexchange.xyz). Then your name will be listed on our website and on this repository.
-* Feel free to do a pull request or an issue if you found any bugs or you wanna contribute to our website!
+### Roadmap
+* Sign-up System
+* Forum
+* FaQ
+* Project Hub
+* Code Storage System
+
+
+### Contribute
+* You can contribute by creating a Pull Request [here](https://github.com/Arduino-Exchange/Website/compare)!
