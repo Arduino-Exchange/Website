@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --main: #fffaff;
+  --secondary: #aee4ff;
+  --bg: #5b415e;
+  --bg-alt: #cb98d1;
+  --warning: rgb(241, 92, 92);
+  --black: rgb(37, 36, 36);
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0 auto;
+  font-size: 20px;
+  font-family: 'Quicksand', sans-serif;
+  background-color: var(--bg);
+  color: var(--main);
+}
+
+h1 {
+  font-size: 2.5em;
+  margin: 0 0 0.2em;
+}
+
+h2 {
+  font-size: 1.8em;
+  color: var(--yellow);
+}
+
+h3 {
+  font-size: 1.3em;
+  color: var(--khaki);
+}
+
+h4 {
+  font-size: 1.1em;
+  margin-top: 0.2em;
+}
+
+h2, h3, h4 {
+  color: var(--secondary);
+  margin-bottom: 0.2em;
+}
+
+a {
+  color: var(--main);
+  font-weight: bold;
+  text-decoration: none;
+  background-image: linear-gradient(to right, #00ffc3d5, #ffffffdd);
+  background-size: 0% 0.1em;
+  background-position-y: 100%;
+  background-position-x: 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.2s ease-in-out;
+}
+
+a:hover, a:focus {
+  background-size: 100% 0.1em;
+  background-position-x: 0%;
+}
+
+footer {
+  font-size: 0.8em;
+  color: var(--secondary);
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
+ul {
+  margin-top: 0.1em;
+}
+
+.container {
+  margin-bottom: 2em;
+  opacity: 0;
+  animation: fadeInUp 0.2s ease calc(0.2s) forwards;
+  transform: translateY(5rem);
+}
+
+.container:nth-child(2) {
+  animation: fadeInUp 0.2s ease calc(0.6s) forwards;
+}
+
+.container:nth-child(3) {
+  animation: fadeInUp 0.2s ease calc(1.2s) forwards;
+}
+
+.container:nth-child(4) {
+  animation: fadeInUp 0.2s ease calc(1.6s) forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#particles-bg {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0
+}
+
+.buttons a {
+  background-image: none;
+}
+
+.btn {
+  border: none;
+  padding: 1em;
+  display: inline-block;
+  font-size: 1.2em;
+  color: var(--main);
+  margin: 1.2em 0.5em;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border-radius: 0.8em;
+  -webkit-box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0.35);
+  box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0.35);
+}
+
+.btn:hover {
+  -webkit-box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0.60);
+  box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0.60);
+}
+
+.navbar-container {
+  margin: 0.5em;
+  overflow: hidden;
+}
+
+.navbar-container a {
+  float: left;
+  color: var(--white);
+  text-align: center;
+  padding: 0.3em 0.3em;
+  text-decoration: none;
+  border-bottom: none;
+  margin: 0.3em;
+}
+
+.navbar-container a:hover {
+  color: var(--link-hover);
+}
+
+.navbar-container a.active {
+  font-weight: bold;
+  color: var(--secondary);
+}
+
+.navbar-icons {
+  float: right;
+}
+
+.content-wrapper {
+  max-width: 75%;
+  text-align: center;
+  margin: 10vh auto 0 auto;
+}
+
+.content-wrapper-about {
+  max-width: 75%;
+  margin: 10vh auto 0 auto;
+  text-align: left;
+  padding-left: 20%;
+}
+
+.donation-code {
+  background-color: var(--bg-alt);
+  padding: 0.2em;
+  border-radius: 0.3em;
+  color: var(--black);
+}
+
+.donation-container h4 {
+  margin-bottom: 0.6em;
+}
+
+.warning {
+  color: var(--warning);
+}
+
+.shine {
+  background: linear-gradient(to right, #6666ff, #0099ff, #00ff00, #ff3399, #6666ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: shine-animation 4s ease-in-out infinite;
+  background-size: 400% 100%;
+  font-weight: bold;
+}
+
+@keyframes shine-animation {
+  0%, 100% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 100% 0;
+  }
+}
