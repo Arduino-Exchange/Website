@@ -1,9 +1,9 @@
-/*function httptohttps(){
+function httptohttps(){
     if(location.protocol === "http:"){
-        location.replace(window.location.href);
+        location.replace(`https://${location.hostname}${location.pathname}`);
     }
 }
-*/
+
 //script to copy addresses to clipboard
 function clipboard() {
     var copyText = document.getElementById("clipboard");
