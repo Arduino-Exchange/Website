@@ -49,7 +49,7 @@ a {
   color: var(--main);
   font-weight: bold;
   text-decoration: none;
-  background-image: linear-gradient(to right, #00ffc3d5, #ffffffdd);
+  background-image: linear-gradient(to right, #fffaff, #aee4ff);
   background-size: 0% 0.1em;
   background-position-y: 100%;
   background-position-x: 100%;
